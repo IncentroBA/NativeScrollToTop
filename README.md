@@ -1,17 +1,15 @@
 ## NativeScrollToTop
-[Option to scroll to the top of the page]
+Option to scroll to the top of the page. Also (optionally) trigger an action on pull down.
 
 ## Features
-[feature highlights]
+Add your own arrow icon to the widget.
+Set a pull down action (optional).
+Set a background color for the scroll to top button.
 
 ## Usage
-[step by step instructions]
+A simple container widget containing a ScrollView and the ability to place widgets inside it. This widget is intended to be used at the highest level of the page and all content of the page to be placed inside.
 
-## Demo project
-[link to sandbox]
-
-## Issues, suggestions and feature requests
-[link to GitHub issues]
+All content inside will be a part of the scrollable to top area and can be pulled down to refresh.
 
 ## Development and contribution
 
