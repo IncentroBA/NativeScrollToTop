@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="incentro.nativescrolltotop.NativeScrollToTop"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Native"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>Native Scroll To Top</name>
+    <description>Option to scroll to the top of the page. Also (optionally) trigger an action on pull down.</description>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAABWElEQVRoge2Y7W3DIBRF76v6vxnFI7gbZAR3g46SEZINOkJH8Ch0gtsfIVLVYvNhHq9IHAkpwQ7cQxTziJBEzzxZBzjKELBmCFgzBKzpXgAkdxuACYADwMbNAZhi+SS2E4uIA/BSZbXy+SJ52rshRcC01iApe9dTfgO3SllKiM4d/QYAQETmGmlyIfkZuydJ4D/T/WO0e4FnrYFFZAJw9m8/SK4qE8U2ipKGv5tf0qZUNFeD8KoSrcKrSbQMryLROnx1CYvwVSWOhp83wl8DfauGxJHwy8bKXv313/3zhpgDsDQVwH2D2gy/JeD7QxIEcC7JUlpKTIG+G8kl9kF/T6hMDo0ZpVYtlBT+wY5ENqW10AX3FTsBWEm+5w5AcvHH1cdT7FISRO08EDiKvjLhgJJL9+X0ELBmCFgzBDJwGoNqCrz9fE2lQ/34Y8uaIWDNELBmCFjTvcA30WaiKGvirOoAAAAASUVORK5CYII=</icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="contentWidgets" type="widgets" required="true">
+                <caption>Widgets inside ScrollView</caption>
+                <description />
+            </property>
+            <property key="icon" type="image" required="true">
+                <caption>Icon</caption>
+                <description>Icon for scroll to top. Does not support .SVG (yet). The icon has a size of 24px. Best is to use a .png of at least x2 or even x3.</description>
+            </property>
+            <property key="pullDownAction" type="action" required="false">
+                <caption>On Pull Down</caption>
+                <description>Pull Down Action to be performed.</description>
+            </property>
+            <property key="buttonBackground" type="string">
+                <caption>Background color</caption>
+                <description>Button background color.</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
